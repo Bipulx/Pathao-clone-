@@ -1,0 +1,36 @@
+.offer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.btn_container button {
+  outline: none;
+  padding: 0.6rem 4rem;
+  border-radius: 10px;
+  border: 0px;
+  background: rgba(240, 235, 235, 0.801);
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(114, 112, 112);
+  cursor: pointer;
+}
+.img_container_offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.img_container_offer img {
+  width: 420px;
+}

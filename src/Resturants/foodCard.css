@@ -1,0 +1,40 @@
+.food_MealBox img {
+  border-radius: 15px;
+  height: 219px;
+  width: 219px;
+}
+.item img {
+  height: 175px;
+  width: 200px;
+}
+
+.title {
+  color: rgb(37, 37, 37);
+}
+.price_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.price_tag h3 {
+  font-size: 17px;
+  color: rgb(44, 44, 44);
+}
+.price_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price_list h2 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #818091;
+  text-decoration: line-through;
+}
+.price_list h3 {
+  font-size: 19px;
+  color: #e7302a;
+}

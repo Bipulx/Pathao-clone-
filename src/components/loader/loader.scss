@@ -1,0 +1,50 @@
+.loader_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+
+.loading {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  font-size: 36px;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 4.4px;
+  text-transform: capitalize;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-50%, -60%);
+
+  &:before {
+    color: #aaa;
+    content: attr(data-loading-text);
+  }
+
+  &:after {
+    top: 0;
+    left: 0;
+    width: 0;
+    opacity: 1;
+    color: #444;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-loading-text);
+    animation: loading 3s infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}

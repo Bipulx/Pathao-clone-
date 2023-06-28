@@ -1,0 +1,63 @@
+.images {
+  height: 60px;
+  width: 60px;
+  margin: 0.3rem;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 4rem;
+  overflow-x: hidden;
+}
+
+.images_text {
+  cursor: pointer;
+  background: rgb(247, 243, 243);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+}
+
+.images_text h3 {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(70, 69, 69);
+  margin: 0.4rem 0.9rem;
+}
+
+.btn {
+  border: 0px;
+  outline: none;
+  font-size: 27px;
+  background: transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: scale(0.9);
+
+  background: rgb(224, 220, 220);
+  border-radius: 50%;
+}
+.carousel-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-slider .btn-prev {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.carousel-slider .btn-next {
+  margin-right: 2rem;
+  margin-top: 2rem;
+}

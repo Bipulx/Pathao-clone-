@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0%;
+  left: 70%;
+}
+
+.sidebar {
+  height: 700px;
+  width: 410px;
+  padding: 1rem 3rem;
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(20px); /* Initially hidden */
+  box-shadow: 0px 0px 4px grey;
+}
+.sidebar.active {
+  right: 0; /* Slide the sidebar into view */
+}
+.cross {
+  margin-right: 1rem;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); /* Start off the screen */
+  }
+  100% {
+    transform: translateX(0); /* Slide into view */
+  }
+}
+
+/* Apply the animation when the sidebar becomes active */
+.sidebar.active {
+  animation: slideInFromRight 0.3s ease-in-out;
+}
+
+.text_close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.text_close h1 {
+  font-size: 22px;
+}
+
+.icon_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.icon_info image {
+  margin-bottom: 2rem;
+}
+
+.icon_info h2 {
+  color: rgb(107, 107, 107);
+}
+.icon_info p {
+  color: #aaa6a6;
+}

@@ -1,0 +1,51 @@
+.all_container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0 9rem;
+}
+
+.box_container {
+  padding: 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 70px;
+  display: flex;
+  flex-direction: column !important;
+  overflow-x: hidden !important;
+  width: 400px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.filter h1 {
+  color: black;
+  font-size: 15px;
+}
+.filter Button {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+input {
+  cursor: pointer;
+  accent-color: red;
+}
+.box_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 0.7rem;
+  font-size: 19px;
+}
+.box_list input {
+  margin-right: 0.4rem;
+}

@@ -1,0 +1,121 @@
+.Items_container {
+  height: 100%;
+  width: 100%;
+  padding: 0 3rem;
+  overflow-x: hidden;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  gap: 7rem;
+}
+
+.Items_container .image img {
+  overflow-x: hidden;
+  height: 219px;
+  width: 282px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.off_price {
+  position: relative;
+  background: #32bf52;
+  color: #fff;
+  bottom: 68%;
+  padding: 4px 10px;
+  width: 70px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  font-size: 12px;
+}
+
+.price_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.price_info .price_cost {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price_cost h4 {
+  font-size: 19px;
+  color: #e7302a;
+}
+.price_cost h5 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #818091;
+  text-decoration: line-through;
+}
+
+.titles {
+  font-size: 27px;
+  margin: 2rem 0 0 1.4rem;
+  color: rgb(44, 44, 44);
+}
+.btn_load {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background: #e7302a;
+  color: #fff;
+  border: 0px;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn_load:hover {
+  transform: scale(0.97);
+  background: #ee251e;
+}
+
+/* cart */
+.cart_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart_container button {
+  color: #fff;
+  background: rgb(0, 89, 255);
+  border: 0px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  border-radius: 9px;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+.cart_container button:hover {
+  transform: scale(0.9);
+}
+
+.add_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btn_div Button {
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: lowercase;
+}
+.add_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.add_div Button {
+  color: blue;
+  font-size: 16px;
+  font-weight: 500;
+}
+.count {
+  color: rgb(90, 92, 94);
+}

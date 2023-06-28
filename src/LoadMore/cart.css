@@ -1,0 +1,43 @@
+.cart_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart_container button {
+  color: #fff;
+  background: rgb(0, 89, 255);
+  border: 0px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  border-radius: 9px;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+.cart_container button:hover {
+  transform: scale(0.9);
+}
+
+.add_cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btn_div Button {
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: lowercase;
+}
+.add_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.add_div Button {
+  color: blue;
+  font-size: 16px;
+  font-weight: 500;
+}
+.count {
+  color: rgb(90, 92, 94);
+}

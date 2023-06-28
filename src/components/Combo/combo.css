@@ -1,0 +1,58 @@
+.combo_container {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.combo_one {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+  width: 100%;
+  margin-right: 15px;
+  padding: 0.5em;
+  width: 285px;
+  position: relative;
+}
+.combo_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+.combo_info h2 {
+  font-size: 16px;
+  color: #343a40;
+}
+
+.combo_one .combo_info {
+  gap: 1rem;
+}
+.combo_one .combo_info h2 {
+  margin-bottom: 6rem;
+}
+.combo_one .combo_info .price_tag {
+  margin-top: 1rem;
+}
+
+.box_info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  left: 5%;
+  position: absolute;
+}
+
+.box_info p {
+  background: #f7f4db;
+  color: #343a40;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px;
+  padding: 4px;
+}
+.price_tag {
+  color: #dc3545;
+  margin-top: 0.6rem;
+}
